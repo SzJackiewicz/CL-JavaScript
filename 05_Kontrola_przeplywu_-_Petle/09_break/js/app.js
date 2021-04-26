@@ -1,8 +1,9 @@
 let i = 0;
-while (true) {
-  /**
-   * Write your code below!
-   */
 
-
+while (i < 5) {
+  i++;
+  if (i === 5){
+    break;
+  }
+  console.log(i);
 }
